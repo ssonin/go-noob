@@ -1,0 +1,66 @@
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/go.work
+
+# Go workspace file
+go.work
+
+# Generated files
+*.pb.go
+
+# Test binary, built with 'go test -c'
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# IntelliJ IDEA specific
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# Operating System
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Dependency directories
+bin/
+pkg/
+dist/
+
+# Debug files
+debug/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+logs/
