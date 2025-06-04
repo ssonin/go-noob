@@ -8,7 +8,7 @@ import (
 type Person struct {
 	FirstName string
 	LastName  string
-	age       int
+	Age       int
 }
 
 func MakePerson(firstName, lastName string, age int) Person {
@@ -42,18 +42,18 @@ func main() {
 	personPointer := MakePersonPointer("Rachel", "Green", 26)
 	fmt.Println(personPointer)
 
-	// ex2
-	s := "Joey"
-	strings := []string{"Monica", "Rachel"}
-	UpdateSlice(strings, s)
-	GrowSlice(strings, s)
-	fmt.Println(strings)
-
-	// ex3
-	//var people []Person
-	people := make([]Person, 0, 10_000_000)
-	for i := 0; i < 10_000_000; i++ {
-		people = append(people, MakePerson("Rachel", "Green", 26))
-	}
+	//// ex2
+	//s := "Joey"
+	//strings := []string{"Monica", "Rachel"}
+	//UpdateSlice(strings, s)
+	//GrowSlice(strings, s)
+	//fmt.Println(strings)
+	//
+	//// ex3
+	////var people []Person
+	//people := make([]Person, 0, 10_000_000)
+	//for i := 0; i < 10_000_000; i++ {
+	//	people = append(people, MakePerson("Rachel", "Green", 26))
+	//}
 
 }
